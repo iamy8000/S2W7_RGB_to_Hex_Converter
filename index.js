@@ -45,13 +45,13 @@
     let hexG = indexG.toString(16)
     let hexB = indexB.toString(16)
     //補0
-    if (hexR < 10) {
+    if (hexR <= 10) {
       hexR = '0' + hexR
     }
-    if (hexG < 10) {
+    if (hexG <= 10) {
       hexG = '0' + hexG
     }
-    if (hexB < 10) {
+    if (hexB <= 10) {
       hexB = '0' + hexB
     }
 
